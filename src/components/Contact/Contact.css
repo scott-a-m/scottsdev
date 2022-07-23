@@ -1,0 +1,186 @@
+.contact-container {
+    font-family: orbitron;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 3rem;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    max-width: 1000px;
+
+}
+
+.label {
+    color: black;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.textbox {
+    height: 200px;
+    resize: none;
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.contact-subheading {
+    text-decoration: underline;
+}
+
+.question {
+    font-family: 'Righteous', cursive;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5% 5%;
+}
+
+
+input {
+    background-color: black;
+    color: white;
+    height: 30px;
+    font-size: 1.2rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    gap: 2rem;
+    margin: 2rem;
+}
+
+.margin {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 51);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+
+.social-icons {
+    text-decoration: none;
+    list-style: none !important;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: -1rem;
+}
+
+.social-icon {
+    color: white;
+    padding: 0;
+    margin: 0;
+    border-radius: 0.2rem;
+    font-size: 3rem;
+    transition: all 0.5s;
+}
+
+.social-icon:visited {
+    color: white !important;
+}
+
+.social-icon:hover {
+    color: rgb(255, 255, 51) !important;
+}
+
+.icon-container:hover {
+    transform: scale(1.2);
+}
+
+.xl {
+    font-size: 4rem !important;
+}
+
+.contact-info>.logo-container>.logo {
+    margin: 0;
+}
+
+
+
+@media (max-width: 1000px) {
+    .xl {
+        font-size: 3rem !important;
+    }
+
+    .contact-container {
+        grid-template-columns: 1fr auto;
+    }
+
+}
+
+@media (max-width: 850px) {
+
+    .contact-container {
+        grid-template-columns: 1fr;
+        margin-bottom: 1rem;
+
+
+    }
+
+
+
+}
+
+@media (max-width: 700px) {
+
+    .question {
+        font-size: 1.5rem;
+
+    }
+}
+
+
+@media (max-width: 450px) {
+
+    .xl {
+        font-size: 1.8rem !important;
+    }
+
+    .textbox {
+        height: 150px;
+    }
+
+    .margin {
+        margin-bottom: 0rem;
+        margin-top: 1rem;
+
+    }
+
+    .social-icon {
+        font-size: 2.5rem;
+    }
+
+
+
+}
