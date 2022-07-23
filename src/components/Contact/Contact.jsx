@@ -18,7 +18,7 @@ const Contact = () => {
       </h2>
       <h4 className="question" data-aos="fade-up" data-aos-duration="500">
         Have a <span className="keyword">website</span> or{" "}
-        <span className="keyword">web app</span> in mind? Let's get in touch!
+        <span className="keyword">web app</span> in mind? Let's connect!
       </h4>
       <div className="contact-container">
         <div
@@ -34,11 +34,11 @@ const Contact = () => {
             <label htmlFor="name" className="label">
               Name
             </label>
-            <input name="name" id="name" type="text" className="input" />
+            <input name="name" id="name" type="text" className="input" required="true"/>
             <label htmlFor="email" className="label">
               Email
             </label>
-            <input name="Email" id="email" type="email" className="input" />
+            <input name="Email" id="email" type="email" className="input" required="true"/>
             <label htmlFor="message" className="label">
               Message
             </label>
@@ -46,6 +46,7 @@ const Contact = () => {
               id="message"
               name="message"
               className="textbox"
+              required="true"
             ></textarea>
             <div className="visit-btn-container">
               <button type="submit" className="visit-btn margin">

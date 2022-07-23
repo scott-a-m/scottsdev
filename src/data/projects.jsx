@@ -17,7 +17,7 @@ const projects = [
     technologies: "Web 2: MERN Stack",
     description: "Time-management App",
     longDescription: [
-      "Pomo-it a time management app featuring a timer and task manager to help you practice the Pomodoro® Technique, an effective time-management technique developed by Francesco Cirillo",
+      "Pomo-it is a time management app featuring a timer and task manager to help you practice the Pomodoro® Technique, an effective time-management technique developed by Francesco Cirillo",
       "The main idea is that you work in 25-minute intervals known as pomodoros (Italian for tomato), not letting anything distract you (if you think of something, jot it down and address it later) and having short breaks between them.",
       "This ultimately helps you to be more productive with your limited time and work more effectively - to pomo-it!",
     ],
