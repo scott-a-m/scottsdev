@@ -257,7 +257,6 @@ body {
   position: relative;
   animation: appear 0.15s linear forwards;
   color: rgb(19, 18, 18);
-  text-shadow: none;
 }
 
 #title>li {
@@ -266,7 +265,6 @@ body {
   font-size: 3.5rem;
   animation: appear2 0.15s linear forwards;
   color: rgb(19, 18, 18);
-  text-shadow: none;
 
 }
 
@@ -278,12 +276,10 @@ li:before {
   animation: type 0.15s linear forwards;
   opacity: 0;
   color: white;
-  text-shadow: 2px 2px 8px #ebe004;
 }
 
 #title>li:before {
   color: #ffff33;
-  text-shadow: 2px 2px 8px white;
 }
 
 
@@ -293,133 +289,135 @@ li:before {
 
 
 #name>li:nth-child(1) {
-  animation-delay: 0.15s;
-
-}
-
-#name>li:nth-child(2) {
-  animation-delay: 0.3s;
-
-}
-
-#name>li:nth-child(3) {
-  animation-delay: 0.45s;
-
-}
-
-#name>li:nth-child(4) {
-  animation-delay: 0.6s;
-
-}
-
-#name>li:nth-child(5) {
-  animation-delay: 0.75s;
-
-}
-
-#name>li:nth-child(6) {
-  animation-delay: 0.9s;
-
-}
-
-#name>li:nth-child(7) {
-  animation-delay: 1.05s;
-
-}
-
-#name>li:nth-child(8) {
-  animation-delay: 1.2s;
-
-}
-
-#name>li:nth-child(9) {
-  animation-delay: 1.35s;
-
-}
-
-#name>li:nth-child(10) {
-  animation-delay: 1.5s;
-
-}
-
-#name>li:nth-child(11) {
   animation-delay: 1.65s;
 
 }
 
-#name>li:nth-child(12) {
+#name>li:nth-child(2) {
   animation-delay: 1.8s;
 
 }
 
+#name>li:nth-child(3) {
+  animation-delay: 1.95s;
+
+}
+
+#name>li:nth-child(4) {
+  animation-delay: 2.1s;
+
+}
+
+#name>li:nth-child(5) {
+  animation-delay: 2.25s;
+
+}
+
+#name>li:nth-child(6) {
+  animation-delay: 2.4s;
+
+}
+
+#name>li:nth-child(7) {
+  animation-delay: 2.55s;
+
+}
+
+#name>li:nth-child(8) {
+  animation-delay: 2.7s;
+
+}
+
+#name>li:nth-child(9) {
+  animation-delay: 2.85s;
+
+}
+
+#name>li:nth-child(10) {
+  animation-delay: 3s;
+
+}
+
+#name>li:nth-child(11) {
+  animation-delay: 3.15s;
+
+}
+
+#name>li:nth-child(12) {
+  animation-delay: 3.3s;
+
+}
+
 #name>li:nth-child(13) {
-  animation-delay: 1.85s;
+  animation-delay: 3.45s;
 
 }
 
 #name>li:nth-child(14) {
-  animation-delay: 2s;
+  animation-delay: 3.6s;
 
 }
 
 #name>li:nth-child(1):before {
   animation-delay: 0s;
+  animation-iteration-count: 5;
+  animation-duration: 0.3s;
 
 }
 
 #name>li:nth-child(2):before {
-  animation-delay: 0.15s;
+  animation-delay: 1.65s;
 
 }
 
 #name>li:nth-child(3):before {
-  animation-delay: 0.3s;
+  animation-delay: 1.8s;
 
 }
 
 #name>li:nth-child(4):before {
-  animation-delay: 0.45s;
+  animation-delay: 1.95s;
 
 }
 
 #name>li:nth-child(5):before {
-  animation-delay: 0.6s;
+  animation-delay: 2.10s;
 }
 
 #name>li:nth-child(6):before {
-  animation-delay: 0.75s;
+  animation-delay: 2.25s;
 }
 
 #name>li:nth-child(7):before {
-  animation-delay: 0.9s;
+  animation-delay: 2.4s;
 }
 
 #name>li:nth-child(8):before {
-  animation-delay: 1.05s;
+  animation-delay: 2.55s;
 }
 
 #name>li:nth-child(9):before {
-  animation-delay: 1.2s;
+  animation-delay: 2.7s;
 }
 
 #name>li:nth-child(10):before {
-  animation-delay: 1.35s;
+  animation-delay: 2.85s;
 }
 
 #name>li:nth-child(11):before {
-  animation-delay: 1.5s;
+  animation-delay: 3s;
 }
 
 #name>li:nth-child(12):before {
-  animation-delay: 1.65s;
+  animation-delay: 3.15s;
 }
 
 #name>li:nth-child(13):before {
-  animation-delay: 1.8s;
+  animation-delay: 3.3s;
 }
 
 #name>li:nth-child(14):before {
-  animation-delay: 1.95s;
+  animation-delay: 3.45s;
 }
 
 
@@ -428,225 +426,126 @@ li:before {
 
 
 #title>li:nth-child(1) {
-  animation-delay: 2.25s;
+  animation-delay: 3.75s;
 
 }
 
 #title>li:nth-child(2) {
-  animation-delay: 2.4s;
+  animation-delay: 3.9s;
 
 }
 
 #title>li:nth-child(3) {
-  animation-delay: 2.55s;
+  animation-delay: 4.05s;
 
 }
 
 #title>li:nth-child(4) {
-  animation-delay: 2.7s;
+  animation-delay: 4.2s;
 
 }
 
 #title>li:nth-child(5) {
-  animation-delay: 2.85s;
+  animation-delay: 4.35s;
 
 }
 
 #title>li:nth-child(6) {
-  animation-delay: 3s;
+  animation-delay: 4.5s;
 
 }
 
 #title>li:nth-child(7) {
-  animation-delay: 3.15s;
+  animation-delay: 4.65s;
 
 }
 
 #title>li:nth-child(8) {
-  animation-delay: 3.3s;
+  animation-delay: 4.8s;
 
 }
 
 #title>li:nth-child(9) {
-  animation-delay: 3.45s;
+  animation-delay: 4.95s;
 
 }
 
 #title>li:nth-child(10) {
-  animation-delay: 3.6s;
+  animation-delay: 5.1s;
 
 }
 
 #title>li:nth-child(11) {
-  animation-delay: 3.75s;
+  animation-delay: 5.25s;
 
 }
 
 #title>li:nth-child(12) {
-  animation-delay: 3.9s;
+  animation-delay: 5.4s;
 
 }
 
 #title>li:nth-child(13) {
-  animation-delay: 4.05s;
-
-}
-
-#title>li:nth-child(14) {
-  animation-delay: 4.2s;
-
-}
-
-#title>li:nth-child(15) {
-  animation-delay: 4.35s;
-
-}
-
-#title>li:nth-child(16) {
-  animation-delay: 4.5s;
-
-}
-
-#title>li:nth-child(17) {
-  animation-delay: 4.65s;
-
-}
-
-#title>li:nth-child(18) {
-  animation-delay: 4.8s;
-
-}
-
-#title>li:nth-child(19) {
-  animation-delay: 4.95s;
-
-}
-
-#title>li:nth-child(20) {
-  animation-delay: 5.10s;
-
-}
-
-#title>li:nth-child(21) {
-  animation-delay: 5.25s;
-
-}
-
-#title>li:nth-child(22) {
-  animation-delay: 5.4s;
-
-}
-
-#title>li:nth-child(23) {
   animation-delay: 5.55s;
 
 }
 
-#title>li:nth-child(24) {
-  animation-delay: 5.7s;
-
-}
 
 #title>li:nth-child(1):before {
-  animation-delay: 2.10s;
+  animation-delay: 3.6s;
 
 }
 
 #title>li:nth-child(2):before {
-  animation-delay: 2.25s;
+  animation-delay: 3.75s;
 
 }
 
 #title>li:nth-child(3):before {
-  animation-delay: 2.4s;
+  animation-delay: 3.9s;
 
 }
 
 #title>li:nth-child(4):before {
-  animation-delay: 2.55s;
+  animation-delay: 4.05s;
 
 }
 
 #title>li:nth-child(5):before {
-  animation-delay: 2.7s;
-}
-
-#title>li:nth-child(6):before {
-  animation-delay: 2.85s;
-}
-
-#title>li:nth-child(7):before {
-  animation-delay: 3s;
-}
-
-#title>li:nth-child(8):before {
-  animation-delay: 3.15s;
-}
-
-#title>li:nth-child(9):before {
-  animation-delay: 3.3s;
-}
-
-#title>li:nth-child(10):before {
-  animation-delay: 3.45s;
-}
-
-#title>li:nth-child(11):before {
-  animation-delay: 3.6s;
-}
-
-#title>li:nth-child(12):before {
-  animation-delay: 3.75s;
-}
-
-#title>li:nth-child(13):before {
-  animation-delay: 3.9s;
-}
-
-#title>li:nth-child(14):before {
-  animation-delay: 4.05s;
-}
-
-#title>li:nth-child(15):before {
   animation-delay: 4.2s;
 }
 
-#title>li:nth-child(16):before {
+#title>li:nth-child(6):before {
   animation-delay: 4.35s;
 }
 
-#title>li:nth-child(17):before {
+#title>li:nth-child(7):before {
   animation-delay: 4.5s;
 }
 
-#title>li:nth-child(18):before {
+#title>li:nth-child(8):before {
   animation-delay: 4.65s;
 }
 
-#title>li:nth-child(19):before {
+#title>li:nth-child(9):before {
   animation-delay: 4.8s;
 }
 
-#title>li:nth-child(20):before {
+#title>li:nth-child(10):before {
   animation-delay: 4.95s;
 }
 
-#title>li:nth-child(21):before {
+#title>li:nth-child(11):before {
   animation-delay: 5.1s;
 }
 
-#title>li:nth-child(22):before {
+#title>li:nth-child(12):before {
   animation-delay: 5.25s;
 }
 
-#title>li:nth-child(23):before {
+#title>li:nth-child(13):before {
   animation-delay: 5.4s;
 }
-
-#title>li:nth-child(24):before {
-  animation-delay: 5.55s;
-}
-
 
 
 
@@ -668,24 +567,20 @@ li:before {
 @keyframes appear {
   0% {
     color: rgb(19, 18, 18);
-    text-shadow: none;
   }
 
   100% {
     color: white;
-    text-shadow: 2px 2px 8px #ffff33;
   }
 }
 
 @keyframes appear2 {
   0% {
     color: rgb(19, 18, 18);
-    text-shadow: none;
   }
 
   100% {
     color: #ffff33;
-    text-shadow: 2px 2px 8px white;
   }
 }
 
@@ -729,7 +624,7 @@ li:before {
   height: 100%;
   background-color: rgb(19, 18, 18);
   z-index: 2;
-  animation: displayCogs 3s linear 4.5s forwards;
+  animation: displayCogs 1.5s linear 6s forwards;
 }
 
 .cog {
