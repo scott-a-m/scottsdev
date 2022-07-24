@@ -87,7 +87,7 @@ const Contact = () => {
           <div>
             <p>
               <span className="contact-subheading">Email:</span>{" "}
-              scott_a_mitchell@163.com
+              scott@scottsdev.net
             </p>
           </div>
         </div>
