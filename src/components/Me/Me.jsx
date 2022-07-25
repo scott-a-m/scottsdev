@@ -38,8 +38,8 @@ const Me = () => {
             at university.
           </p>
           <p>
-            I am now rekindling my passion for computers through web
-            development. I have been developing for over a year and am{" "}
+            I have now rekindled my passion for computers through web
+            development, developing for over a year, and am{" "}
             <a
               href="https://www.freecodecamp.org/scott-a-m"
               target="_blank"
