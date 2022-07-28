@@ -46,7 +46,7 @@ const Me = () => {
               rel="noreferrer"
               id="certifications-link"
             >
-              ceritified
+              certified
             </a>{" "}
             in front- and back-end development.
           </p>
