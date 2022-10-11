@@ -9,7 +9,7 @@ const projects = [
     ],
     development:
       "MERN stack (MongoDB, Express, React and Node), HTML, Tailwind CSS.",
-    siteUrl: "https://scottshop.netlify.app/",
+    siteUrl: "https://scottshop.scottsdev.net/",
   },
   {
     name: "Pomo-it",
@@ -22,7 +22,7 @@ const projects = [
       "This ultimately helps you to be more productive with your limited time and work more effectively - to pomo-it!",
     ],
     development: "MERN stack (MongoDB, Express, React and Node), HTML, CSS",
-    siteUrl: "https://pomo-it.netlify.app/",
+    siteUrl: "https://pomo-it.scottsdev.net/",
   },
   {
     name: "Slayers",
@@ -38,7 +38,7 @@ const projects = [
     ],
 
     development: "React, Solidity, HTML, CSS",
-    siteUrl: "https://slayers.netlify.app/",
+    siteUrl: "https://slayers.scottsdev.net/",
   },
   {
     name: "Forever Wave",
@@ -50,7 +50,7 @@ const projects = [
       "Finally, be careful what you write as your message will be recorded forever on the chain! Muhaha!",
     ],
     development: "React, Solidity, HTML, CSS.",
-    siteUrl: "https://foreverwave.netlify.app/",
+    siteUrl: "https://foreverwave.scottsdev.net/",
   },
   {
     name: "Cool Calc",
@@ -62,7 +62,7 @@ const projects = [
     ],
     development: "React, HTML, CSS",
 
-    siteUrl: "https://cool-calc.netlify.app/",
+    siteUrl: "https://coolcalc.scottsdev.net/",
   },
   {
     name: "Drum Time",
@@ -71,7 +71,7 @@ const projects = [
     description: "Drums App",
     longDescription: ["A fun drums app - let's make some noise!"],
     development: "React, HTML, CSS",
-    siteUrl: "https://drumtime.netlify.app/",
+    siteUrl: "https://drumtime.scottsdev.net/",
   },
 ];
 

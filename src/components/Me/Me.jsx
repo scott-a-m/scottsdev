@@ -62,7 +62,7 @@ const Me = () => {
             I use below.
           </p>
           <p>
-            Have a website in mind?{" "}
+            Have a website or web app in mind?{" "}
             <a href="#contact-heading" id="contact-link">
               Let's connect!
             </a>
