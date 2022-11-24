@@ -25,21 +25,17 @@ const Me = () => {
         <div className="me-text" data-aos="fade-up" data-aos-duration="500">
           <p>
             Hi! I'm <span className="keyword">Scott Mitchell</span> and I'm a{" "}
-            <span className="keyword">Full Stack Web Developer</span> by evening
-            and weekends!
+            <span className="keyword">Full Stack Web Developer</span>.
           </p>
           <p>
             Being passionate about computers from a young age, my career took a
-            different direction after graduation.
+            different direction after graduation. My other passion, language
+            learning - Mandarin, Spanish and French, brought me to the field of
+            language teaching.
           </p>
           <p>
-            My other passion, language learning - Mandarin, Spanish and French,
-            brought me to the field of language teaching where I work full-time
-            at university.
-          </p>
-          <p>
-            I have now rekindled my passion for computers through web
-            development, developing for over a year, and am{" "}
+            I rekindled my passion for computers through web development; I've
+            been developing for over a year, and am{" "}
             <a
               href="https://www.freecodecamp.org/scott-a-m"
               target="_blank"
