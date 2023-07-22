@@ -29,11 +29,20 @@ const Modal = () => {
           </span>
           {projectData.development}
         </p>
-        <div className="visit-btn-container">
-          <a href={projectData.siteUrl} target="_blank" rel="noreferrer">
-            <button className="visit-btn">Visit Site</button>
-          </a>
-        </div>
+        {projectData.siteUrl ? (
+          <div className="visit-btn-container">
+            <a href={projectData.siteUrl} target="_blank" rel="noreferrer">
+              <button className="visit-btn">Visit Site</button>
+            </a>
+          </div>
+        ) : (
+          <p className="description">
+            <em>
+              Due to an NDA, specific details of this project cannot be shared
+            </em>
+          </p>
+        )}
+
         <img
           src={projectData.url}
           alt={projectData.name}

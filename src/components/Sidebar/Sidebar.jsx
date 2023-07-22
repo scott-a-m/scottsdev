@@ -6,6 +6,8 @@ import { useEffect } from "react";
 import { FaTimes } from "react-icons/fa";
 import { useSiteContext } from "../../site_context";
 
+import {currentYear} from "../../constants.js"
+
 const Sidebar = () => {
   useEffect(() => {
     AOS.init();
@@ -38,7 +40,7 @@ const Sidebar = () => {
             className="nav-link2"
             onClick={closeSidebar}
           >
-            Projects
+            Work
           </a>
         </li>
         <li>
@@ -61,7 +63,7 @@ const Sidebar = () => {
         </li>
       </ul>
       <div className="footer-container">
-        <h5>© Scott Mitchell 2022</h5>
+        <h5>© Scott Mitchell {currentYear}</h5>
       </div>
     </div>
   );

@@ -3,12 +3,12 @@ import { GrNode } from "react-icons/gr";
 import {
   SiReact,
   SiSolidity,
-  SiTailwindcss,
   SiMongodb,
-  SiJavascript,
+  SiCsharp,
+  SiDotnet,
+  SiUnity,
+  SiTypescript
 } from "react-icons/si";
-import { ImCss3 } from "react-icons/im";
-import { AiFillHtml5 } from "react-icons/ai";
 import "./Toolkit.css";
 import { FaGitAlt, FaPython } from "react-icons/fa";
 import { GiToolbox } from "react-icons/gi";
@@ -97,9 +97,9 @@ const Toolkit = () => {
             emerge ? "toolbox-code-icon1 emerge5" : "toolbox-code-icon1"
           }
         >
-          <SiJavascript id="toolbox-icon-5" />
+          <SiTypescript id="toolbox-icon-5" />
           <h3 className={shake ? "icon-text appear3" : "icon-text"}>
-            Javascript
+            Typescript
           </h3>
         </div>
         <div
@@ -123,9 +123,9 @@ const Toolkit = () => {
             emerge ? "toolbox-code-icon2 emerge8" : "toolbox-code-icon2"
           }
         >
-          <SiTailwindcss id="toolbox-icon-8" />
+          <SiCsharp id="toolbox-icon-8" />
           <h3 className={shake ? "icon-text appear3" : "icon-text"}>
-            Tailwind
+            C-Sharp
           </h3>
         </div>
         <div
@@ -133,16 +133,16 @@ const Toolkit = () => {
             emerge ? "toolbox-code-icon1 emerge9" : "toolbox-code-icon1"
           }
         >
-          <ImCss3 id="toolbox-icon-9" />
-          <h3 className={shake ? "icon-text appear3" : "icon-text"}>CSS</h3>
+          <SiDotnet id="toolbox-icon-9" />
+          <h3 className={shake ? "icon-text appear3" : "icon-text"}>.NET</h3>
         </div>
         <div
           className={
             emerge ? "toolbox-code-icon2 emerge10" : "toolbox-code-icon2"
           }
         >
-          <AiFillHtml5 id="toolbox-icon-10" />
-          <h3 className={shake ? "icon-text appear3" : "icon-text"}>HTML</h3>
+          <SiUnity id="toolbox-icon-10" />
+          <h3 className={shake ? "icon-text appear3" : "icon-text"}>Unity</h3>
         </div>
       </div>
     </div>

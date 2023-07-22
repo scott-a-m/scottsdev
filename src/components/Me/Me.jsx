@@ -28,37 +28,27 @@ const Me = () => {
             <span className="keyword">Full Stack Web Developer</span>.
           </p>
           <p>
-            Being passionate about computers from a young age, my career took a
-            different direction after graduation. My other passion, language
-            learning - Mandarin, Spanish and French, brought me to the field of
-            language teaching.
+            I've contracted on a wide range of{" "}
+            <a href="#commercial-applications" id="projects-link">
+              commericial projects
+            </a>
+            , including point of sale, trailer hire, and data services
+            applications.
           </p>
           <p>
-            I rekindled my passion for computers through web development; I've
-            been developing for over a year, and am{" "}
-            <a
-              href="https://www.freecodecamp.org/scott-a-m"
-              target="_blank"
-              rel="noreferrer"
-              id="certifications-link"
-            >
-              certified
+            I also have a range of personal projects I have developed. Come
+            check{" "}
+            <a href="#personal-projects" id="projects-link">
+              them
             </a>{" "}
-            in front- and back-end development.
-          </p>
-          <p>
-            Check out some of my{" "}
-            <a href="#projects-heading" id="projects-link">
-              projects
-            </a>{" "}
-            and the{" "}
+            out and the{" "}
             <a href="#toolkit-heading" id="technologies-link">
               technologies
             </a>{" "}
             I use below.
           </p>
           <p>
-            Have a website or web app in mind?{" "}
+            Have a web or mobile application in mind?{" "}
             <a href="#contact-heading" id="contact-link">
               Let's connect!
             </a>
