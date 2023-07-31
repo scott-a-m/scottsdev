@@ -13,7 +13,8 @@ const commercialApplications = [
     url: "/assets/img/commercial-applications/trailer-hire.jpg",
     longDescription: [
       "I was responsible for development - both backend (server-side code) and frontend (user interface (UI)) - of two systems for a US-based trailer hire company.",
-      "One system, the admin system, is a web application which is used to manage the inbound (prior to being leased) and outbound inspections (after the leasee returns the trailer) of the company's trailers.",
+      "The admin system comprises of a web application used to manage the inbound (prior to being leased) and outbound inspections (after the leasee returns the trailer) of the company's trailers.",
+      "The second system involves a mobile application which is used by the trailer hire staff to carry out the inspections.",
       "The backend for both the web application and the mobile app used Mongbo DB for the database together with Node and Express JS for the server-side code. The UI for the web application was built in React JS, and the mobile app was developed using React Native.",
     ],
     development:
