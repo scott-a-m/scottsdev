@@ -69,7 +69,7 @@ const Intro = () => {
         </div>
         <div className="menu-item">
           <a href="#projects-heading" className="menu-link">
-            <h3 className="menu-link-heading">Work</h3>
+            <h3 className="menu-link-heading">Projects</h3>
             <FaProjectDiagram className="intro-icon" />
           </a>
         </div>

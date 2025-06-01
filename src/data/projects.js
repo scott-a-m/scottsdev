@@ -1,46 +1,3 @@
-const commercialApplications = [
-  {
-    name: "Point Of Sale System",
-    url: "/assets/img/commercial-applications/POS-system.jpg",
-    longDescription: [
-      "I worked on both the backend (server-side code) and frontend (user interface (UI)) of a point of sale system for a company which caters for food and beverage suppliers in South Africa.",
-      "The backend involved development in C# Dotnet Enity Framework for the server-side code and SQL database. The UI was built using React JS.",
-    ],
-    development: "C#, Dotnet, Entity Framework, React JS, HTML, CSS",
-  },
-  {
-    name: "Trailer Rental Inspections",
-    url: "/assets/img/commercial-applications/trailer-hire.jpg",
-    longDescription: [
-      "I was responsible for development - both backend (server-side code) and frontend (user interface (UI)) - of two systems for a US-based trailer hire company.",
-      "The admin system comprises of a web application used to manage the inbound (prior to being leased) and outbound inspections (after the leesee returns the trailer) of the company's trailers.",
-      "The second system involves a mobile application which is used by the trailer hire staff to carry out the inspections.",
-      "The backend for both the web application and the mobile app used Mongbo DB for the database together with Node and Express JS for the server-side code. The UI for the web application was built in React JS, and the mobile app was developed using React Native.",
-    ],
-    development:
-      "MERN stack (MongoDB, Express JS, React JS and Node JS), React Native, HTML, CSS",
-  },
-  {
-    name: "Vehicle Data Services",
-    url: "/assets/img/commercial-applications/data-services.jpg",
-    longDescription: [
-      "I was responsible for developing a new user interface (UI) for a company which offers a range of data services for vehicles in South Africa. The UI was developed with the Ionic Framework and React Typescript.",
-    ],
-    development: "Ionic Framework, React TS, HTML, CSS",
-  },
-  {
-    name: "Mind Meanings Therapy",
-    url: "/assets/img/commercial-applications/mind-meanings.png",
-    longDescription: [
-      "I was responsible for developing a website for Mind Meanings Therapy.",
-      "The client asked for a simple, clean, and calming user interface (UI).",
-      "Next JS, a Framework which uses React and offers SEO optimisation amongst other benefits, was used to build the UI. A content management system, Contentful, was used to separate the website content from the UI code.",
-      "Via this approach, the client is able to update the content of the website through Contentful and the UI updates itself automatically as the content is updated, giving the client full control over the content whilst allowing me to focus on the UI and provide a custom solution.",
-    ],
-    development: "Next JS, Contentful, HTML, CSS",
-    siteUrl: "https://www.mindmeanings.com/",
-  },
-];
 
 const projects = [
   {
@@ -83,6 +40,19 @@ const projects = [
     siteUrl: "https://slayers.scottsdev.net/",
   },
   {
+    name: "Mind Meanings Therapy",
+    url: "/assets/img/commercial-applications/mind-meanings.png",
+    description: "Mind Meanings Therapy",
+    longDescription: [
+      "I was responsible for developing a website for Mind Meanings Therapy.",
+      "The client asked for a simple, clean, and calming user interface (UI).",
+      "Next JS, a Framework which uses React and offers SEO optimisation amongst other benefits, was used to build the UI. A content management system, Contentful, was used to separate the website content from the UI code.",
+      "Via this approach, the client is able to update the content of the website through Contentful and the UI updates itself automatically as the content is updated, giving the client full control over the content whilst allowing me to focus on the UI and provide a custom solution.",
+    ],
+    development: "Next JS, Contentful, HTML, CSS",
+    siteUrl: "https://www.mindmeanings.com/",
+  },
+  {
     name: "Forever Wave",
     url: "/assets/img/foreverwave.png",
     description: "Blockchain Message Board",
@@ -114,4 +84,4 @@ const projects = [
   },
 ];
 
-export { projects, commercialApplications };
+export { projects };

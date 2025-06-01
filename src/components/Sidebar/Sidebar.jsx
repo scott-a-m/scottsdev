@@ -40,7 +40,7 @@ const Sidebar = () => {
             className="nav-link2"
             onClick={closeSidebar}
           >
-            Work
+            Projects
           </a>
         </li>
         <li>

@@ -28,27 +28,21 @@ const Me = () => {
             <span className="keyword">Full Stack Web Developer</span>.
           </p>
           <p>
-            I've contracted on a wide range of{" "}
-            <a href="#commercial-applications" id="projects-link">
-              commericial projects
-            </a>
-            , including point of sale, trailer hire, and data services
-            applications.
+            This site is home to my earlier{" "}
+            <a href="#projects-heading" id="projects-link">
+              projects
+            </a>{" "}
+            from 2021-22.
           </p>
           <p>
-            I also have a range of personal projects I have developed. Come
-            check{" "}
-            <a href="#personal-projects" id="projects-link">
-              them
-            </a>{" "}
-            out and the{" "}
+            Check out the{" "}
             <a href="#toolkit-heading" id="technologies-link">
               technologies
             </a>{" "}
             I use below.
           </p>
           <p>
-            Have a web or mobile application in mind?{" "}
+            Want to get in touch?{" "}
             <a href="#contact-heading" id="contact-link">
               Let's connect!
             </a>
