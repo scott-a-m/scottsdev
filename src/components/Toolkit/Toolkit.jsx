@@ -1,16 +1,14 @@
 import React, { useState } from "react";
-import { GrNode } from "react-icons/gr";
 import {
   SiReact,
   SiSolidity,
   SiMongodb,
   SiCsharp,
   SiDotnet,
-  SiUnity,
   SiTypescript
 } from "react-icons/si";
 import "./Toolkit.css";
-import { FaGitAlt, FaPython } from "react-icons/fa";
+import { FaGitAlt, FaPython, FaDatabase, FaLaravel } from "react-icons/fa";
 import { GiToolbox } from "react-icons/gi";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -70,8 +68,8 @@ const Toolkit = () => {
             emerge ? "toolbox-code-icon2 emerge2" : "toolbox-code-icon2"
           }
         >
-          <GrNode id="toolbox-icon-2" />
-          <h3 className={shake ? "icon-text appear3" : "icon-text"}>Node</h3>
+          <FaLaravel id="toolbox-icon-2" />
+          <h3 className={shake ? "icon-text appear3" : "icon-text"}>Laravel</h3>
         </div>
 
         <div
@@ -141,8 +139,8 @@ const Toolkit = () => {
             emerge ? "toolbox-code-icon2 emerge10" : "toolbox-code-icon2"
           }
         >
-          <SiUnity id="toolbox-icon-10" />
-          <h3 className={shake ? "icon-text appear3" : "icon-text"}>Unity</h3>
+          <FaDatabase id="toolbox-icon-10" />
+          <h3 className={shake ? "icon-text appear3" : "icon-text"}>SQL</h3>
         </div>
       </div>
     </div>

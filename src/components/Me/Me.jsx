@@ -35,7 +35,7 @@ const Me = () => {
             from 2021-22.
           </p>
           <p>
-            Check out the{" "}
+            Check out some of the{" "}
             <a href="#toolkit-heading" id="technologies-link">
               technologies
             </a>{" "}
