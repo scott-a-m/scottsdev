@@ -490,6 +490,42 @@ li:before {
 
 }
 
+#title>li:nth-child(14) {
+  animation-delay: 5.7s;
+
+}
+
+#title>li:nth-child(15) {
+  animation-delay: 5.85s;
+
+}
+
+#title>li:nth-child(16) {
+  animation-delay: 6s;
+
+}
+
+#title>li:nth-child(17) {
+  animation-delay: 6.15s;
+
+}
+
+#title>li:nth-child(18) {
+  animation-delay: 6.3s;
+
+}
+
+#title>li:nth-child(19) {
+  animation-delay: 6.45s;
+
+}
+
+#title>li:nth-child(20) {
+  animation-delay: 6.6s;
+
+}
+
+
 
 #title>li:nth-child(1):before {
   animation-delay: 3.6s;
@@ -545,6 +581,34 @@ li:before {
 
 #title>li:nth-child(13):before {
   animation-delay: 5.4s;
+}
+
+#title>li:nth-child(14):before {
+  animation-delay: 5.55s;
+}
+
+#title>li:nth-child(15):before {
+  animation-delay: 5.7s;
+}
+
+#title>li:nth-child(16):before {
+  animation-delay: 5.85s;
+}
+
+#title>li:nth-child(17):before {
+  animation-delay: 6s;
+}
+
+#title>li:nth-child(18):before {
+  animation-delay: 6.15s;
+}
+
+#title>li:nth-child(19):before {
+  animation-delay: 6.3s;
+}
+
+#title>li:nth-child(20):before {
+  animation-delay: 6.45s;
 }
 
 

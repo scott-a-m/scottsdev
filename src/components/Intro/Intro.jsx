@@ -26,9 +26,16 @@ const Intro = () => {
           <li>l</li>
         </ul>
         <ul className="name" id="title">
-          <li>W</li>
-          <li>e</li>
-          <li>b</li>
+          <li>F</li>
+          <li>u</li>
+          <li>l</li>
+          <li>l</li>
+          <li className="invisible">.</li>
+          <li>S</li>
+          <li>t</li>
+          <li>a</li>
+          <li>c</li>
+          <li>k</li>
           <li className="invisible">.</li>
           <li>D</li>
           <li>e</li>
