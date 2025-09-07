@@ -25,7 +25,7 @@ const Me = () => {
         <div className="me-text" data-aos="fade-up" data-aos-duration="500">
           <p>
             Hi! I'm <span className="keyword">Scott Mitchell</span> and I'm a{" "}
-            <span className="keyword">Full Stack Web Developer</span>.
+            <span className="keyword">Full Stack Developer</span>.
           </p>
           <p>
             This site is home to my earlier{" "}
