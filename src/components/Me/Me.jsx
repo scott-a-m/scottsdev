@@ -32,7 +32,7 @@ const Me = () => {
             <a href="#projects-heading" id="projects-link">
               projects
             </a>{" "}
-            from 2021-22.
+            from <span className="keyword">2021-22</span>.
           </p>
           <p>
             Check out some of the{" "}
